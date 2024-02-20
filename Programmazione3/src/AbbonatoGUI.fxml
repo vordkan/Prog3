@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AbbonatoGUIController">
+    <left>
+        <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #62D72F;" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="benvenutoLabel" layoutX="20.0" layoutY="24.0" textFill="WHITE">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Label>
+
+                <Label fx:id="creditoLabel" layoutX="20.0" layoutY="100.0" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+
+                <Label fx:id="promozioneLabel" layoutX="20.0" layoutY="180.0" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Button fx:id="ricarica" layoutX="235.0" layoutY="100.0" mnemonicParsing="false" onAction="#ricaricaCliccato" prefHeight="34.0" prefWidth="77.0" style="-fx-background-color: white;" text="Ricarica 💲">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button fx:id="cambia" layoutX="136.0" layoutY="233.0" mnemonicParsing="false" onAction="#cambiaCliccato" prefHeight="34.0" prefWidth="77.0" style="-fx-background-color: white;" text="Cambia 🔁">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Text fill="WHITE" layoutX="134.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" text="☎">
+                    <font>
+                        <Font size="82.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="47.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestore Telefonico">
+                    <font>
+                        <Font size="31.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+    </left>
+    <center>
+        <AnchorPane prefHeight="400.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="chiama" layoutX="89.0" layoutY="125.0" mnemonicParsing="false" onAction="#chiamaCliccato" prefHeight="56.0" prefWidth="186.0" style="-fx-background-color: #62D72F;" text="Effettua Chiamata📞" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button fx:id="usadati" layoutX="89.0" layoutY="322.0" mnemonicParsing="false" onAction="#usaDati" prefHeight="56.0" prefWidth="186.0" style="-fx-background-color: #62D72F;" text="Utilizza Dati 🌍" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button layoutX="89.0" layoutY="222.0" mnemonicParsing="false" onAction="#messaggiCliccato" prefHeight="56.0" prefWidth="186.0" style="-fx-background-color: #62D72F;" text="Invia SMS 💬" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font></Button>
+            <Button fx:id="home" layoutX="269.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToHome" prefHeight="29.0" prefWidth="67.0" style="-fx-background-color: red;" text="Log-out" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

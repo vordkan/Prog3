@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Programmazione3:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Programmazione3_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Programmazione3.jar">
+        <element id="module-output" name="Programmazione3" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/mysql-connector-j-8.1.0.jar" />
+      <element id="library" level="project" name="lib" />
+      <element id="module-output" name="Programmazione3" />
+    </root>
+  </artifact>
+</component>
