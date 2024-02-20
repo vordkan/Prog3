@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AmministratoreGUIController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" style="-fx-background-color: #62D72F;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="51.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modalità Amministratore" textAlignment="CENTER" wrappingWidth="248.24609375">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="104.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="💻" textAlignment="CENTER" wrappingWidth="142.24609375">
+               <font>
+                  <Font size="130.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="500.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="promozione" layoutX="81.0" layoutY="222.0" mnemonicParsing="false" onAction="#promoCliccato" prefHeight="56.0" prefWidth="214.0" style="-fx-background-color: #62D72F;" text="Inserisci Promozione" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="percentuali" layoutX="81.0" layoutY="326.0" mnemonicParsing="false" onAction="#visualizzaCliccato" prefHeight="56.0" prefWidth="214.0" style="-fx-background-color: #62D72F;" text="Visualizza Percentuali" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="registra" layoutX="81.0" layoutY="119.0" mnemonicParsing="false" onAction="#registraCliccato" prefHeight="56.0" prefWidth="214.0" style="-fx-background-color: #62D72F;" text="Registra Utente" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="home" layoutX="269.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToHome" prefHeight="29.0" prefWidth="67.0" style="-fx-background-color: red;" text="Log-out" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

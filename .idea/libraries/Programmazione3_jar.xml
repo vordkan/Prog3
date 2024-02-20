@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Programmazione3_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/mysql-connector-j-8.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/javafx.web.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/javafx-swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Programmazione3/out/artifacts/Programmazione3_jar/Programmazione3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
